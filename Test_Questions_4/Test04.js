@@ -12,7 +12,7 @@ function calculator(number1, Operator, number2) {
             result = number1 * number2;
             break;
         case "/":
-            result = number1 * number2;
+            result = number1 / number2;
             break;
     }
 }
