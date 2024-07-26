@@ -53,11 +53,21 @@ console.log("7. 깊은 복사된 객체(deepCopy):", deepCopy);
         skill :"js"
     }
 
-    6. {
+    6. 
+    {
         city : "seoul"
         age : "30"
         name : "yuno"
         skill : "js"
     }
+
+    7.
+    {
+        city : "busan"
+        age : "30"
+        name : "yuno"
+        skill : "javascript"
+    }
+
 
   */
