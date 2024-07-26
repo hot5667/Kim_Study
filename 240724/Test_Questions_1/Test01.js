@@ -2,7 +2,6 @@ let uninitialized;
 console.log(uninitialized); // 결과값 < Undefined >
 // uninitialized 변수에 데이터가 아무것도 없기 때문에 Undefined 라고 생각합니다.
 
-
 const apple = "사과";
 apple = "바나나"; // TypeError: Assignment to constant variable
 //원시 타입으로 받았기 때문에 상수로 하면 TypeError: Assignment to constant variable 발생 할 것  입니다.
