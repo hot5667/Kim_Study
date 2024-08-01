@@ -53,3 +53,9 @@ const nameObj  = {
 };
 
 nameObj.method();
+
+/*
+화살표 함수는 상위 스코프의 this를 상속받아 nameObj 객체의 name을 참조하므로 yuno를 출력합니다.
+일반 함수는 호출될 때 this가 nameObj를 가리키므로 yuno를 출력합니다.
+따라서, 두 함수 모두 yuno를 출력합니다.
+*/ 
